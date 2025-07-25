@@ -1,0 +1,20 @@
+
+.hoverLink {
+    background-color: green; /* Default */
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .hoverLink:hover {
+    color: white !important;
+    background-color: rgb(4, 0, 255) !important; /* Change to red on hover */
+  }
+  
+  .googleHover{
+    background-color: rgb(230, 10, 10); /* Default */
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  .googleHover:hover {
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(86, 161, 0) !important; /* Change to red on hover */
+  }

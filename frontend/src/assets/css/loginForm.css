@@ -1,0 +1,127 @@
+/* General Styles */
+
+  .container {
+    margin-top: 22px;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px; /* Adjust width as needed */
+  }
+  
+  .illustration {
+    width: 100%;  /* Make the width responsive */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 400px; /* Max width if you want to limit it */
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Styles */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form-group {
+    text-align: left;
+  }
+  
+  label {
+    font-size: 14px;
+    color: #333333;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+  }
+  
+  input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .password-toggle {
+    display: inline-block;
+    font-size: 12px;
+    color: #007bff;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+  
+  /* Buttons */
+  button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Google Button */
+  .google-btn {
+    display: inline-block; /* Ensure it's a block-level element if needed */
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #db4437;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none; /* Remove underline that is default for links */
+    border-radius: 5px; /* Make button corners rounded */
+    transition: background-color 0.3s ease; /* Smooth background transition on hover */
+  }
+  
+  .google-btn:hover {
+    background-color: #b33427; /* Darken the color on hover */
+  }
+  
+  .google-btn i {
+    margin-right: 10px; /* Add space between the icon and text */
+  }
+  
+  .forgot-password {
+    display: block;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #ff4500; /* Changed from #007bff to a bold orange color */
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .forgot-password:hover {
+    text-decoration: underline;
+    color: #e63900; /* Darker orange on hover */
+  }
+  
