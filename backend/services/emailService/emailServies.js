@@ -7,8 +7,8 @@ export const sendMail = async (toEmail, subject, htmlContent) => {
       port: 587,
       secure: false,
       auth: {
-        user: "7888f4003@smtp-brevo.com",
-        pass: "IhK0HYkaJAXBmbxU",
+        user: "7888f4005@smtp-brevo.com",
+        pass: "CJyDdM8cF07ZPKNb",
       },
       tls: {
         rejectUnauthorized: false, // Disable strict SSL check
